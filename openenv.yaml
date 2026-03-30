@@ -1,0 +1,9 @@
+version: "1.0.0"
+name: "genomic-variant-curator"
+entry_points:
+  env_class: "env.GenomicCuratorEnv"
+  observation_model: "models.Observation"
+  action_model: "models.Action"
+settings:
+  max_steps: 10
+  reward_range: [0.0, 1.0]
